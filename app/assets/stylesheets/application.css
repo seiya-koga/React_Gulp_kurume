@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.container {
+  margin-top: -20px;
+}
+
+
+#title {
+    text-align: center;
+    margin: 50px;
+    font-weight: 100;
+}
+
+h3 {
+  font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #3d808b;
+    margin-bottom: 6px;
+}
+p {
+    font-size: 10px;
+    color: #3d808b;
+}
+div.item {
+  margin-bottom: 25px;
+  padding: 34px 25px 22px;
+    text-align: center;
+    background: #fff
+}
+div.title-header {
+  height: 80px;
+}
+div.avatar {
+  width: 150px;
+    height: 150px;
+    margin: 0 auto 22px;
+    border: 2px solid #3d808b;
+    padding: 3px;
+    border-radius: 50%;
+}
+.avatar img {
+  display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.btn {
+    border: 0;
+    border-radius: 0;
+    font-weight: 700;
+    margin: 5px;
+}
+.btn-demo {
+    border: 0;
+  color: #fff;
+  background-color: #3d808b;
+}
+.btn-demo:hover {
+    border: 0;
+  color: #fff;
+  background-color: #5dabb8;
+}
